@@ -1,24 +1,24 @@
 # EMBEDDED OPERATING SYSTEM
-## Embedded system vs general purpose system
+- Embedded system vs general purpose system
 
-## wo and three layered enbedded system
+- Two and three layered enbedded system
 
-## Modularize project and code
+- Modularize project and code
 
-## Build
+- Build
 
-## Makefile
+- Makefile
 
-## Hex dump vs Execution under embedded linux
+- Hex dump vs Execution under embedded linux
 
-## ELF(Executable & Linkable File)
+- ELF(Executable & Linkable File)
 
-## Parallelism
-### True Parallelism
-### Psedu Parallelism
+- Parallelism
+    - True Parallelism
+    - Psedu Parallelism
 
-## Uniprocessor
+- Uniprocessor
     
-## Multiprocessor
+- Multiprocessor
 
     
