@@ -1,4 +1,5 @@
 # EMBEDDED OPERATING SYSTEM
+
 - Embedded system vs general purpose system
 
 - Two and three layered enbedded system
@@ -43,6 +44,15 @@
 - Cross Compiler
 
 - Bare Metal Programming : When coad is loaded to hardware.
+
+- Common in Embedded Systems
+    - Bootloader
+    - Kernal/OS
+    - FS(File System) > App
+
+- $: For normal user.
+
+- #: For priviledge user
 
 
     
