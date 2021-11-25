@@ -1,6 +1,5 @@
 # TOOLS
 
-    -Typora
-    
-    -Shutter
-    
+- Typora
+
+- Shutter
