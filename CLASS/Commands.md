@@ -20,4 +20,5 @@
 
 - git merge feature 
 
+- git config -l : To see the your credentials entered in git.
 
