@@ -14,6 +14,10 @@
 
 - mv filename directoryname : To move file to a perticular directory when your pwd is where the file is present.
 
+- ar x filename : To extract file.
+
+- rm *.extension : To delete file with extensions.
+
 # Command For Making Static Library
 
 - gcc -c filename. -o filenamre.o : To create object file(.o file).
