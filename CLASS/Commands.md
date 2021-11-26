@@ -22,4 +22,6 @@
 
 - git config -l : To see the your credentials entered in git.
 
+- git commit -m "statement"
+
 - git push -u origin master
