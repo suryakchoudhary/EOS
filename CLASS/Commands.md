@@ -25,3 +25,7 @@
 - git commit -m "statement"
 
 - git push -u origin master
+
+# Raspberry Pi Commands
+
+- hostname -I : To view ip address and detail.
