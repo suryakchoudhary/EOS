@@ -20,6 +20,10 @@
 
 - ar rcs lib_name.a filename1.o filename2.o OR ar -cr lib_name.a filename1.o filename2.o
 
+- gcc -o filename filename.c -L. lib_library_name.a  OR  gcc -o filename filename.c -llibrary_name -L. : Linking main file to static library.
+    Eg.. gcc -o main main.c -L. libcalc.a   OR gcc -o main main.c -lcalc -L. 
+    If the library is in same directory then use -L. else -L(write path instead of ".")
+
 # Git Commands
 
 - git config --global user.name "user_name"

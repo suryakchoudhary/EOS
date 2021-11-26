@@ -54,7 +54,7 @@
 
 - #: For priviledge user
 
-- Libraries
+- Libraries ; Collection of object files, library is a reusable componant which has object file inside it.
 
 - Fork : To create a process.
 
