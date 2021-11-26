@@ -12,7 +12,19 @@
 
 - file * : Shows the detail of file such as binary file of what.
 
+- mv filename directoryname : To move file to a perticular directory when your pwd is where the file is present.
+
+# Command For Making Static Library
+
+- gcc -c filename. -o filenamre.o : To create object file(.o file).
+
+- ar rcs lib_name.a filename1.o filename2.o OR ar -cr lib_name.a filename1.o filename2.o
+
 # Git Commands
+
+- git config --global user.name "user_name"
+
+- git config --global user.name "user_name"
 
 - git branch branch_name
 
