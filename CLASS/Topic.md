@@ -54,5 +54,9 @@
 
 - #: For priviledge user
 
+- Libraries
+
+- Fork : To create a process.
+
 
     
