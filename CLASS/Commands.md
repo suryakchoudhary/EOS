@@ -1,4 +1,4 @@
-# Linux COMMANDS
+# Linux Commands
 
 - size filename : TO find size of .bss, .data, .txt files in Executable and Linkable File.
 
