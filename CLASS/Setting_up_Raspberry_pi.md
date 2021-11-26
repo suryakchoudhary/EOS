@@ -13,7 +13,7 @@
                     scan_ssid=1
                     ssid="MyNetworkSSID"
                     psk="Pa55w0rd1234"
-            }
+                    }
 
 - Step- 3 > Create "SSH" file name.
 
