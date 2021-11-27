@@ -54,7 +54,13 @@
 
 - #: For priviledge user
 
+- Declaration vs Definition.
+
 - Libraries ; Collection of object files, library is a reusable componant which has object file inside it.
+    - Static lib.
+    - Dymanic lib.
+
+- Header(.h file contain declaration) vs Library.
 
 - Fork : To create a process.
 
