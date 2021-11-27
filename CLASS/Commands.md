@@ -18,15 +18,65 @@
 
 - rm *.extension : To delete file with extensions.
 
-# Command For Making Static Library
+- objdump -S objectfile.o : Display information from object file.
+
+
+
+# Command For Creating Library
+- export LD_LIBRARY_PATH=.  :If checking for library then also check the current directory. 
+
+- echo $LD_LIBRARY_PATH   :To check for the above done command i.e. "export LD_LIBRARY_PATH=." .
+
+
+
+## Command For Making Static Library
+
+### Step- 1
 
 - gcc -c filename. -o filenamre.o : To create object file(.o file).
 
+### Step- 2
+
 - ar rcs lib_name.a filename1.o filename2.o OR ar -cr lib_name.a filename1.o filename2.o
+
+### Step- 3
 
 - gcc -o filename filename.c -L. lib_library_name.a  OR  gcc -o filename filename.c -llibrary_name -L. : Linking main file to static library.
     Eg.. gcc -o main main.c -L. libcalc.a   OR gcc -o main main.c -lcalc -L. 
     If the library is in same directory then use -L. else -L(write path instead of ".")
+
+### Step- 4
+
+- ./main :Run executable file.
+
+
+
+## Command For Making Dynamic Library
+
+### Step- 1
+
+- gcc -c filename. -o filenamre.o : To create object file(.o file)  : Creating object files(.o) files.
+
+### Step- 2
+
+- gcc -o libname.so -shared -fPIC filename.o filename1.o  OR gcc -o libname.so -shared -fpic *.o  : Creating dynamic lib. (.so) and grouping object files in a 
+  single dynamic lib.
+
+### Step- 3
+ 
+- gcc -o main main.c -L. libname.so OR gcc -o main main.c -L_location_of _libname.so libname.so  : Linking main program to lib.
+
+### Step- 4
+
+- export LD_LIBRARY_PATH=.  :If checking for library then also check the current directory. 
+
+- echo $LD_LIBRARY_PATH   :To check for the above done command i.e. "export LD_LIBRARY_PATH=." .
+
+### Step- 5
+
+- ./main :Run executable file.
+
+
 
 # Git Commands
 
