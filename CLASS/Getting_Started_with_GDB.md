@@ -10,7 +10,7 @@
 
 - lay next OR lay n 
 
-- Press enter OR return key tow times.
+- Press enter OR return key two times.
 
 - break main OR b main : To set the break point at main.
 
