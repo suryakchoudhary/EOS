@@ -20,6 +20,8 @@
 
 - objdump -S objectfile.o : Display information from object file.
 
+- ps -el | grep PPID : To check to whom this Parent Process ID belong to, And it belongs to Bash OR shell. And after changing the shell(command window) its PPID changes.
+
 
 
 # Command For Creating Library
