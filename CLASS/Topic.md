@@ -62,7 +62,15 @@
 
 - Header(.h file contain declaration) vs Library.
 
-- Fork : To create a process.
+- Fork : To create a process. "man 2 fork".
+
+- PID : Process ID
+    - getpid()
+
+- PPID : Parent Process ID
+    - getppid()
+
+- Opeque Datatype : Actually, we don't know which datatype or returntyoe is inside it. We should only know its usage and purpose.
 
 
     
