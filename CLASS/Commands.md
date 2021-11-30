@@ -22,6 +22,10 @@
 
 - ps -el | grep PPID : To check to whom this Parent Process ID belong to, And it belongs to Bash OR shell. And after changing the shell(command window) its PPID changes.
 
+- dmesg : To see segmentation fault.
+
+- vmmap : Tells where the binary(.o file) is getting stored.
+
 
 
 # Command For Creating Library
