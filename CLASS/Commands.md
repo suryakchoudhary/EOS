@@ -26,6 +26,8 @@
 
 - vmmap : Tells where the binary(.o file) is getting stored.
 
+- ls -al : To view file read, write and execute permissions.
+
 
 
 # Command For Creating Library
