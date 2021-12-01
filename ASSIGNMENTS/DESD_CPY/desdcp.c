@@ -17,7 +17,7 @@ int main()
 	write(fd_d,&buff,1);
 	}
 	printf("Content of src.txt is cpoied to dest.txt\n");
-	close(fd_s);
+	close(fd_s); 
 	close(fd_d);
 	return 0;
 }
