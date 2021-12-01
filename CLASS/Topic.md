@@ -93,4 +93,18 @@
     - Standard Output   | 1 | Display
     - Standard Error    | 2 |
 
-    
+## Day- 6
+
+- Process Management: Manage CPU effectively across multiple processes, by sudo or true parallelism.
+
+    - Fork: Ti is a traditional and most prominent API to create new child process.
+
+        - Whem parent finishes its process first: Child is inherited by systemd process.
+
+            - systemd process: systemd process is one of the 1st processes to be created when linux is booted and it ic created by kernal.
+
+        - When child finished its process first: child process is put in ZOMBIE STATE by the OS.
+
+    - Appilcations: Two ways searching means from top as well as from bottom.
+
+    - Web servers: Parent process for listening and child creating multiple chile processes for connection multiple clients.
