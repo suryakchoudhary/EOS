@@ -28,6 +28,8 @@
 
 - ls -al : To view file read, write and execute permissions.
 
+- ps -el | grep systemd : For viewing systend Process.
+
 
 
 # Command For Creating Library
