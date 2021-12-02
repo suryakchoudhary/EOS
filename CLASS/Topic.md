@@ -108,3 +108,21 @@
     - Appilcations: Two ways searching means from top as well as from bottom.
 
     - Web servers: Parent process for listening and child creating multiple chile processes for connection multiple clients.
+
+- IPC (Inter Process Communication)
+
+    - Pipes: Communication between two related processes.
+
+    - FIFO: Communication between two unrelated processes. "mkfifo -m600 fifo_name" is the mediun of communication.
+
+- Process State Diagram
+
+    - Create
+
+    - Ready State
+
+    - Running State
+
+    - Waiting State
+
+    - Exit
