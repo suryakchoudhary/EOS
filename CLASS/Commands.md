@@ -30,6 +30,8 @@
 
 - ps -el | grep systemd : For viewing systend Process.
 
+- mkfifo -m600 fifo_name: -m600 is the mode with owner read write mode, this file is used in FIFO as a medium to communicate between two unrelated processes.
+
 
 
 # Command For Creating Library
