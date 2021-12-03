@@ -115,7 +115,7 @@
 
     - FIFO: Communication between two unrelated processes. "mkfifo -m600 fifo_name" is the mediun of communication.
 
-- Process State Diagram
+- Process State (Diagram)
 
     - Create
 
@@ -126,3 +126,53 @@
     - Waiting State
 
     - Exit
+
+## Day- 7
+
+- Buffer: A variabe which holds a set of bytes which we want to write/read to/from file.
+
+- Switching between pricesses without loosing previous process's data.
+
+    - Basic register in CPU
+
+        1. IP: Instruction Pointer
+
+        2. SP: Stack Pointer
+
+        3. GPR: General Purpose Register
+
+        4. Flags
+
+    - Context Switching
+
+        - Context Saving: Taking physical copy of context to make a logical copy.
+
+        - Context Restoring: Taking logical copy of context to make a physical copy.
+
+    - Processes Demonstration
+
+        - PID: Unique Identifier
+
+        - Address Space
+
+        - PCB: Logical copy is saved here.
+
+        - Context (IP, SP, GPR, Flags)
+
+- Terminologies
+
+    - Batch: Collecting file of same type ang executing each of them. Only one program(compiler) can be loaded at a time.
+
+    - Multiprogramming: Multiple programs loaded on a single storage system. Poor response time.
+
+    - Multitasking: An extension to multiprogramming. Multiple programs loaded on a single storage system. Better resoponse time. Psudo parallelism achieved.
+
+    - Multiprocessing: A system with multiple Processor. True parallelism is achieved.
+
+    - Multithreading: Multiple threads inside a process. We can say that thread is a sub- division of processes.
+
+- Thread: Sub- division of processes. Share the alloted CPU time for a process between threads.
+
+    - POSIX: Portable OS Interfaces UNICES. POSIX lib used for thread.
+
+
