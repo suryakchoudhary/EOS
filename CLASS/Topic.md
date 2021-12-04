@@ -175,4 +175,20 @@
 
     - POSIX: Portable OS Interfaces UNICES. POSIX lib used for thread.
 
+- Creating threat in POSIX
+
+    - POSIX for every datatype it will have two functions
+
+        - set(): To set value of opeaue datatype.
+
+        - get(): To set value of opeaue datatype.
+
+- API: Application Programming Intreface: These are interfaces which allows us to invoke functionality in specific module. API's are defined as functions most of the time.
+
+    - Blocking API: If we make function call to thise API's, if will be in waiting state untill its condition is satisfied or need fullfilled and will block itself.
+
+    - Non- Blocking API: It will not wait either condition is satisfied or not, unlike blocking API's, it will respond back immediately and give its status. 
+
+- CoW: Copy on Write: When we write any change in process data of either of parent or child then at that moment the copy of the address space is created to separate the address space of the child and parent process. This is called CoW.
+
 
