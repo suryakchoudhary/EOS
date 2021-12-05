@@ -110,4 +110,7 @@
 
 # Raspberry Pi Commands
 
+- ssh pi@ipaddress_of_raspberry_pi : To access shell of raspberry pi in linux terminal and use "exit" to exit from raspberry_pi.
+
 - hostname -I : To view ip address and detail.
+
