@@ -191,4 +191,12 @@
 
 - CoW: Copy on Write: When we write any change in process data of either of parent or child then at that moment the copy of the address space is created to separate the address space of the child and parent process. This is called CoW.
 
+## Day- 8
+
+- Memory Leakage: When memory is dynamically allocated in the RAM but it is not freed or we loose pointer location to that memory location.
+
+    - valgrind: A tool to check the memoty leakage(in our programs).
+
+- EXEC API(man exec): Used to execute file in active process. When exec is called, the new program is overwritten on thr pervious program present in address space and the PID will be same.    EXEC is used when user wants to launch a new program in the same process.
+
 
