@@ -3,27 +3,29 @@
 
 void *hello_thread(void *arg) //hello_thread function is not any reserve word.
 {
-	printf("hello\n");
+	printf("HELLO\n");
 }
 
 void *by_thread(void *arg)   //by_thread function is not any reserve word.
 {
-	printf("BY\n");
+	printf("BYE\n");
 }
 
 int main()
 {
-	pthread_t greet;
+	pthread_t hello, bye;
 
-	printf("Main thread: Before the hello thread created\n");
+	printf("Main: Before the hello & bye thread created\n");
 
-	pthread_create(&greet, NULL, hello_thread, NULL);
+	pthread_create(&hello, NULL, hello_thread, NULL);
 
-	pthread_create(&greet, NULL, by_thread, NULL); 
+	pthread_join(hello, NULL);
 
-	pthread_join(greet, NULL);
+	pthread_create(&bye, NULL, by_thread, NULL); 
 
-	printf("Main thread: After the hello thread created\n");
+	pthread_join(bye, NULL);
+
+	printf("Main thread: After the hello and bye thread created\n");
 	return 0;
 }
 
