@@ -199,4 +199,36 @@
 
 - EXEC API(man exec): Used to execute file in active process. When exec is called, the new program is overwritten on thr pervious program present in address space and the PID will be same.    EXEC is used when user wants to launch a new program in the same process.
 
+- Stack Pointer: It always points to the top of the stack.
+
+- Stack Frame: The area in stack allocated for the function, called stack frame.
+
+    - Arguments 
+
+    - Retufn Type
+
+    - Local Variables
+
+- Frame Pointer: Points only to a perticular frame, argument, local variables and everything of the function will be accessed by frame pointer.
+
+- Recursive function should not be called too many times as it will fill the stack with stack frames & it go and hit the heap and then it will corrupt(address space) data on heap.
+
+## Day- 9
+
+- Synchronization: To solve the problem of race condition in accessing the shared resourses, the the resources should be shared in synchronized way by the help of mutual exclution.
+
+- Race Condition: Race to access the the shared resource, causes reace condition.
+
+- Mutual Exclution: A any given instance of time, their will be only onr threat/process, will be accessing the shared resource.
+
+- Race Condition is solved by mutual exclution.
+
+- Resource: Any entity which is used br threat/process. Eg- CPU, serial port, memory location.
+
+- Shared Resource: If same resource is shared between multi[le threat/process.
+
+- Critical Region/Section: The region where we are accessing the shared resource, called Critical Region/Section.
+
+- 
+
 
