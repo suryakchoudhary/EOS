@@ -32,6 +32,9 @@
 
 - mkfifo -m600 fifo_name: -m600 is the mode with owner read write mode, this file is used in FIFO as a medium to communicate between two unrelated processes.
 
+- gcc -o exe_name *.c: For compiling multiple .c file anf for adding debug information use "-g" at last in this command.
+
+- mv source destination: Movinf file or for renaming.
 
 
 # Command For Creating Library
@@ -113,4 +116,8 @@
 - ssh pi@ipaddress_of_raspberry_pi : To access shell of raspberry pi in linux terminal and use "exit" to exit from raspberry_pi.
 
 - hostname -I : To view ip address and detail.
+
+# scp: Secure Copy
+
+- scp filename_to_be_copied pi@ip_add_of_pi:/loc/where/file/to/be/copied/in/linux : To copy data from linux to raspberry pi.
 
