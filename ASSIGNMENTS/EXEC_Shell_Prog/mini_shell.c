@@ -15,14 +15,16 @@ int main(int argc, const int *argv[])
 
 		if(pro!=0)
 		{
+			//Parent
 			close(fd[0]);
-			printf("desdshell $: ");
+			printf("desdshell $: \n");
 			scanf("%s", buff);
 			write(fd[1], buff, sizeof(buff));
 			close(fd[1]);
 		}
 		else
 		{
+			//Child
 			close(fd[1]);
 			read(fd[0], buff, sizeof(buff));
 			execl(buff,buff,NULL);
