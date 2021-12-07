@@ -229,6 +229,36 @@
 
 - Critical Region/Section: The region where we are accessing the shared resource, called Critical Region/Section.
 
-- 
+## Day- 10
+
+- Mutex: Provides mutual exclution, which is solution to race condition.
+
+    - Fast Mutex(futex): When their only one resource to access.
+
+    - Recursive Mutex: Allows same thread to lock mutex multiple times before it is unlocked. It maintains the count of locks that will be released if the number of unlocks and unlocks are equal. No othre threads can unlock the mutex.
+
+    - Error Checking Mutex: Locked exactly once like normal mutex. If a thread tries to lock the mutex again without unlocking it, thread receives an error.
+
+    - Adaptive Mutex: Mutex in busy loop not in waiting state.
+
+- Thumb Rule 
+
+    - If their is shared resource, their must be mutual exclution.
+
+    - Critical region should be as small as possible.
+
+- Deadlock: Two threads/processes go into the situation where they both go in waiting stage, waiting for each other. Neither of the thread/process is ececuted.
+
+- Process Management
+
+    - Create/Destroy Threat/Process
+
+    - Synchronization
+
+    - Inter Process Communocation
+
+- Semaphore: An integer variable shared among multiple thread/process. Initial value depends on number of resourcces available. (int pshate=0 -> thread   /  int pshate=1 -> Process)
+
+- Signallin Semaphone: When the input/output of one thread/process depends on other thread/process, signalling semaphone is used.
 
 
