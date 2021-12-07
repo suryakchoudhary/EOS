@@ -49,3 +49,5 @@
 - nexti OR ni : To move next instruction in assembly code.
 
 - info register : To see information of the registers.
+
+- info breakpoint : To see all breakpoints.
