@@ -261,4 +261,14 @@
 
 - Signallin Semaphone: When the input/output of one thread/process depends on other thread/process, signalling semaphone is used.
 
+## Day- 11
+
+- Counting Semaphore: In many process there are limited resources, it makes sure that each process get an exclusive access to the resource & once it gets it, uses it & returs the resource so that some other process can use it.
+
+- IPC
+
+    - Shared Memory: An IPC mechanism. It is the memory allocated by OS in user space and is accessed by multiple processes.
+
+    - Message Queue: An IPC mechanism. It is a linked list of messages stored within the kernal & identified by a message queue identifier.
+
 
