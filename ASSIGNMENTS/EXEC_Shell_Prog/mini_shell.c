@@ -17,7 +17,7 @@ int main(int argc, const int *argv[])
 		{
 			//Parent
 			close(fd[0]);
-			printf("desdshell $: \n");
+			printf("desdshell $: ");
 			scanf("%s", buff);
 			write(fd[1], buff, sizeof(buff));
 			close(fd[1]);
@@ -27,7 +27,7 @@ int main(int argc, const int *argv[])
 			//Child
 			close(fd[1]);
 			read(fd[0], buff, sizeof(buff));
-			execl(buff,buff,NULL);
+			execl(buff,buff,NULL);   //Printf problem will be only be solved if instruction after this line excutes
 			printf("Enter a valid Command\n");
 			exit(-1);
 			close(fd[0]);
