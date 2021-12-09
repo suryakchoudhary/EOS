@@ -271,4 +271,6 @@
 
     - Message Queue: An IPC mechanism. It is a linked list of messages stored within the kernal & identified by a message queue identifier.
 
+- Barrier Synchronization: In cases where you must wait for a number of tasks to be completed before an overall task can proceed, barrier synchronization can be used. POSIX threads specifies a synchronization object called a barrier, along with barrier functions. The functions create the barrier, specifying the number of threads that are synchronizing on the barrier, and set up threads to perform tasks and wait at the barrier until all the threads reach the barrier. When the last thread arrives at the barrier, all the threads resume execution
+
 
