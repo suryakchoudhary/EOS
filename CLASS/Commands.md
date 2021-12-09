@@ -36,6 +36,11 @@
 
 - mv source destination: Movinf file or for renaming.
 
+# VIm Commands
+
+- yy : To copy the line where the cursor is.
+
+- p : To paste the copied line to the line after the cursor is pointing.
 
 # Command For Creating Library
 - export LD_LIBRARY_PATH=.  :If checking for library then also check the current directory. 
