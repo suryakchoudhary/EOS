@@ -273,4 +273,5 @@
 
 - Barrier Synchronization: In cases where you must wait for a number of tasks to be completed before an overall task can proceed, barrier synchronization can be used. POSIX threads specifies a synchronization object called a barrier, along with barrier functions. The functions create the barrier, specifying the number of threads that are synchronizing on the barrier, and set up threads to perform tasks and wait at the barrier until all the threads reach the barrier. When the last thread arrives at the barrier, all the threads resume execution
 
+- Variadic Functions: Variadic functions are functions that can take a variable number of arguments. In C programming, a variadic function adds flexibility to the program. It takes one fixed argument and then any number of arguments can be passed. The variadic function consists of at least one fixed variable and then an ellipsis(…) as the last parameter.
 

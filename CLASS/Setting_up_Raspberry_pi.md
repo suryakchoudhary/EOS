@@ -18,3 +18,5 @@
 - Step- 3 > Create "SSH" file name.
 
 ## NOW YOU ARE READY WITH YOUR SETUP AND PUT THAT MICRO SD CARD IN YOUR BRAD NEW RASPBERRY PI.
+
+- ssh pi@ipaddress_of_raspberry_pi : To access shell of raspberry pi in linux terminal and use "exit" to exit from raspberry_pi.
