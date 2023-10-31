@@ -1,4 +1,4 @@
-/*Write a program such that parest passes two integers to the child process and then child receives it 
+/*Write a program such that parent passes two integers to the child process and then child receives it 
   and sum it and again send its sum to the parent process and parent receives the process and displays it */
 
 #include <stdio.h>
