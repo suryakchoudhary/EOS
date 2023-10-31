@@ -72,7 +72,7 @@
 
 - Opeque Datatype : Actually, we don't know which datatype or returntyoe is inside it. We should only know its usage and purpose.
 
-- OS like Linux divides the RAM in tow parts:
+- OS like Linux divides the RAM in two parts:
     - User Space: When system boots up, it takes the OS(which is a program) which is in HDD or from network and load it to the kernal address space.
 
     - Kernal Space: It is the core part of the linux and is responsible for the major activities of OS. It consist of various module and interacts directly with underlying hardware. It has access to full resourses of thecomputer.
