@@ -97,9 +97,9 @@
 
 - Process Management: Manage CPU effectively across multiple processes, by sudo or true parallelism.
 
-    - Fork: Ti is a traditional and most prominent API to create new child process.
+    - Fork: It is a traditional and most prominent API to create new child process.
 
-        - Whem parent finishes its process first: Child is inherited by systemd process.
+        - When parent finishes its process first: Child is inherited by systemd process.
 
             - systemd process: systemd process is one of the 1st processes to be created when linux is booted and it ic created by kernal.
 
