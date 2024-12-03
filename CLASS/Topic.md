@@ -219,7 +219,7 @@
 
 - Race Condition: Race to access the the shared resource, causes reace condition.
 
-- Mutual Exclution: A any given instance of time, their will be only onr threat/process, will be accessing the shared resource.
+- Mutual Exclution: At any given instance of time, their will be only onr threat/process, will be accessing the shared resource.
 
 - Race Condition is solved by mutual exclution.
 
