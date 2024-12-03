@@ -2,7 +2,7 @@
 
 - Embedded system vs general purpose system
 
-- Two and three layered enbedded system
+- Two and three layered embedded system
 
 - Modularize project and code
 
